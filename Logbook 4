@@ -1,0 +1,12 @@
+The juypter file appears to be observing the data values of an accelerometer 
+placed around 4 certain locations on a human body (Wrist, chest, ankle and hip)
+The 24th labeled row is considered an activity number in which the 13 activities
+are labeled as such with value data based around the 13 activities.
+
+The second visual display data appears to be compiling all accelerometer data
+for the sitting activity (1) and chose to display and plot all datapoints from 
+the rows 500 to 1499 with only the first 2 columns and display said data as a graph.
+
+Graph number 3 is smoothing out the data from the second graph using a signal filter.
+
+Display point number 4 is simply the point of which the average min and max values are displayed.
